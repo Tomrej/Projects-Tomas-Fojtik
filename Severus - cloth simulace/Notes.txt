@@ -1,0 +1,1 @@
+Tento soubor byl pokus o oblečení pomocí cloth simulace v blenderu. Byl vytvořen (myslím) ve starší verzi blenderu (možná 2.79)
