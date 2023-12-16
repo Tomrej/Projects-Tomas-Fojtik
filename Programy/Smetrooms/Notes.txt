@@ -4,6 +4,7 @@ Tato hra byla projekt, který jsem tvořil. Hra není dokončená, protože jsem
 
 Poznámky k vývoji a hře:
 -Všechny modely ve hře jsou čistě moje modely
+-Hra běží na Unity
 -Zlá postava se pohybuje pomocí navMesh
 -Generace hlavní části hry probíhá pomocí rozmístěných bodů (sítě), na které se později vygeneruje jeden z typů zdí (později mělo být upraveno na algoritmus pro generaci "bludišté")
 -Cíl hry byl sesbírat sedm desinfekcí (svítící objekty), ale konec hry nebyl dořešen
