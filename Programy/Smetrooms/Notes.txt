@@ -1,0 +1,10 @@
+Trailer a ukázka hry: https://youtu.be/kpdM868sphs
+
+Tato hra byla projekt, který jsem tvořil. Hra není dokončená, protože jsem přešel na jiný projekt. Hra měla být lazena do děsivé tématiky. 
+
+Poznámky k vývoji a hře:
+-Všechny modely ve hře jsou čistě moje modely
+-Zlá postava se pohybuje pomocí navMesh
+-Generace hlavní části hry probíhá pomocí rozmístěných bodů (sítě), na které se později vygeneruje jeden z typů zdí (později mělo být upraveno na algoritmus pro generaci "bludišté")
+-Cíl hry byl sesbírat sedm desinfekcí (svítící objekty), ale konec hry nebyl dořešen
+-V zip souboru je spustitelný soubor hry pro ukázku, ale jumpscare je HLASITĚJŠÍ NEŽ BY MĚL BÝT!
