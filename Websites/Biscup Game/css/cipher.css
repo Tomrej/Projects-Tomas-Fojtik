@@ -1,0 +1,68 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.cipher_container {
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    box-shadow: 20px 16px 35px -4px rgba(67,202,229,0.2);
+}
+
+input, button {
+    background-color: var(--background);
+    border-color: var(--text);
+}
+
+.answer {
+    margin-top: 25px;
+}
+
+.code-container {
+    visibility: hidden;
+
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.code {
+    padding: 15px;
+    background-color: var(--background);
+    border: 2px solid var(--primary);
+    text-align: center;
+    box-shadow: 0px 0px 156px 82px rgba(9,71,98,1);
+}
+
+.code p {
+    text-decoration-line: underline;
+}
+
+.show {
+    visibility: visible;
+}
+
+.color {
+    color: var(--primary);
+}
+
+img {
+    width: inherit;
+}

@@ -1,0 +1,4 @@
+0 = volne misto
+1 = mec
+2 = dopis jeskyne
+3 = talisman pro stesti

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fojtík Tomáš</title>
+    <link rel="shortcut icon" href="/icons/icon.svg" type="image/x-icon">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <!-- JS Links -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="/index.html" class="gradient">Domů</a>
+        <a href="/achievments.html">Úspěchy</a>
+        <a href="/hobbies.html">Koníčky</a>
+        <a href="/music.html">Hudba</a>
+        <a href="/gallery.html">Galerie</a>
+    </nav>
+    <header id="index">
+        <h1>TOMÁŠ<br><span class="gradient">FOJTÍK</span></h1>
+        <strong>Student IT</strong>
+    </header>
+
+    <main>
+        <section id="general">
+            <h3><span>&lt;</span>KDO JSEM<span>&gt;</span></h3>
+            <p>Student IT, Kytarista, Animátor...</p>
+            <p>Je spousta věcí, které mě naplňují a které mi působí radost dělat. Nejvíce vidím svoji budoucnost a i budoucnost světa v IT.</p>
+            <img src="images/guitar(2).jpg" alt="Me with guitar">
+            <p id="age">Jsem starý:</p>
+            <p>Na internetu mě najdete nejčastěji pod přezdívkou Tomrej. Takto mě můžete najít třeba na Github, Discord a dalších.</p>
+            <script src="./js/age.js"></script>
+            <h3><span>&lt;/</span>KDO JSEM<span>&gt;</span></h3>
+        </section>
+        <hr>
+        <section id="time">
+            <h3><span>&lt;</span>ČAS<span>&gt;</span></h3>
+            <div class="quote">
+                <h4>„Není větší škody nad ztracený čas.“</h4>
+                <p>— Michelangelo Buonarroti</p>
+            </div>
+            <p>Nechci nechávat čas jen tak plynout. Čas je vzácnější než vše, protože čas, nejde vrátit. Proto se snažím využívat čas na maximum!</p>
+            <img src="images/sinai-2022-expedice.jpg" alt="Me with guitar">
+            <h3><span>&lt;/</span>ČAS<span>&gt;</span></h3>
+        </section>
+        <hr>
+        <section id="work" class="full-width">
+            <h3><span>&lt;</span>PRÁCE<span>&gt;</span></h3>
+
+            <div class="image-and-text">
+                <div>
+                    <img src="./images/financial-scam.jpg" alt="financial-scam">
+                </div>
+                <div class="text">
+                    <p>Hned co jsem získal nějaké zkušenosti, tak jsem se je pokusil aplikovat.</p>
+                    <b>Aktuálně pracuji jako:</b>
+                    <a href="https://zskozmice.cz/"><img id="zskozmice" src="./icons/zskozmice.svg" alt="BridgeOfUkraine"></a>
+                    <ul>
+                        <li>Administrátor webu <a href="https://www.zskozmice.cz/zs/">ZŠ Kozmice</a></li>
+                        <li>Administrátor, designér a dobrovolník u neziskovky <a href="https://www.bridgeofukraine.org/">BridgeOfUkraine</a></li>
+                    </ul>
+                    <a href="https://bridgeofukraine.org/"><img id="bridge" src="./icons/bridge.png" alt="BridgeOfUkraine"></a>
+                    <b>Pracoval jsem:</b>
+                    <ul>
+                        <li>Freelancer v programování Python a Java na <a href="https://www.fiverr.com/tomrejtech">Fiverr</a></li>
+                    </ul>
+                    <p>Více se dočtete <a href="achievments.html">zde</a></p>
+                </div>
+            </div>
+            
+            <h3><span>&lt;/</span>PRÁCE<span>&gt;</span></h3>
+        </section>
+        <hr>
+        <section id="music" class="full-width">
+            <h3><span>&lt;</span>HUDBA<span>&gt;</span></h3>
+            <div class="image-and-text">
+                <div class="text">
+                    <p>Svoje hudební schopnosti využívám převáźně v kapele <a href="https://www.instagram.com/the_a.p.o.l.l.o.s_/">The Apollos</a>. Již Devátým rokem navštěvuji ZUŠ. A taky se dostávám s hudbou na zajímavá místa.</p>
+                    <p>Více najdete na <a href="music.html">hudba</a></p>
+                </div>
+                <div id="model-holder">
+                    <model-viewer alt="3D model of my guitar and amplifier" src="./3d-models/guitar.glb" shadow-intensity="1" auto-rotate camera-controls></model-viewer>
+                </div>
+            </div>
+            <h3><span>&lt;/</span>HUDBA<span>&gt;</span></h3>
+        </section>
+
+    </main>
+
+    <footer>
+        <hr>
+        <div class="image-and-text">
+            <div>
+                <p>Tomáš Fojtík</p>
+                <p>&copy; 2024 Tomáš Fojtík</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://www.instagram.com/fojtik_tomass"><img src="icons/instagram.svg" alt="INSTAGRAM" height="20"><br>INSTAGRAM</a>
+                <a href="facebook"><img src="icons/facebook.svg" alt="FACEBOOK" height="20"><br>FACEBOOK</a>
+                <a href="fojtik435@gmail.com"><img src="icons/email.svg" alt="E-MAIL" height="20"><br>E-MAIL</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

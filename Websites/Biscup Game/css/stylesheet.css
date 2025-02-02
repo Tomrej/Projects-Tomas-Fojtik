@@ -1,0 +1,34 @@
+* {
+    --text: #c3f9fe;
+    --background: #08090f;
+    --primary: #43cae5;
+    --secondary: #094762;
+    --accent: #1683ad;
+
+    color: var(--text);
+
+    font-family: "Bruno Ace SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Audiowide", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html, body {
+    background-color: var(--background);
+}
+
+.box {
+    position: relative;
+  }
+  .box:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--primary);
+    clip-path: polygon(0 82px,82px 0,100% 0,100% 100%,0 100%,0 82px,3px  calc(82px + 1.24px),3px calc(100% - 3px),calc(100% - 3px) calc(100% - 3px),calc(100% - 3px) 3px,calc(82px + 1.24px) 3px,3px calc(82px + 1.24px));
+}

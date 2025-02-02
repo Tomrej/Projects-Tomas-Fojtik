@@ -1,0 +1,50 @@
+#index {
+    padding: 200px 95px;
+    background-image: url("../images/france\(1\)-b&w.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 35%;
+    color: white;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 150px;
+    width: 500px;
+    padding: 75px;
+    padding-bottom: 0px;
+
+    border-radius: 14% 86% 39% 61% / 18% 53% 47% 82%;
+}
+
+#index strong {
+    font-size: 25px;
+}
+
+#index span {
+    font-family: "Playfair Display", serif;
+
+}
+
+#bridge {
+    width: 125px;
+    padding: 10px;
+    background-color: var(--text);
+    position: absolute;
+    left: 50%;
+}
+
+#zskozmice {
+    width: 125px;
+    padding: 10px;
+    background-color: var(--text);
+    position: absolute;
+    left: 40%;
+}
+
+#model-holder {
+    width: 600px;
+    height: 500px;
+    background-color: var(--text);
+    border-radius: 25px;
+}

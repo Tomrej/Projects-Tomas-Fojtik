@@ -1,1 +1,0 @@
-Tohle není čistě můj kód, ale týká se to zakázky na které jsem dělal. Jednalo se o jednoduchou chatovací aplikaci pomocí pythonu a asynchronního programování.

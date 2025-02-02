@@ -1,0 +1,32 @@
+#art img {
+    height: auto;
+    width: 45%;
+}
+
+.table-container {
+    overflow-x: auto;
+    width: 100%;
+}
+
+table {
+    background-color: var(--text);
+    border: 1px solid #ddd;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 13px;
+    color: var(--background);
+}
+
+th {
+    background-color: var(--accent);
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+iframe {
+    border: none;
+}
